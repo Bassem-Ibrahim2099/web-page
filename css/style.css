@@ -1,0 +1,217 @@
+body {
+  font-family: Verdana,sans-serif;
+  font-size: 15px;
+  line-height: 1.5;
+}
+
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  width: 1500px;
+}
+
+header {
+  background-color: white;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  padding: 8px 16px;
+  z-index: 999;
+  box-shadow: 0 -11px 11px 18px #00000024;
+
+}
+
+
+header .logo {
+  text-decoration: none;
+  color: black;
+  text-transform: capitalize;
+  display: block;
+  padding: 8px 16px;
+}
+
+
+
+
+
+
+
+header .logo span {
+  font-weight: bold;
+  color: black;
+  text-transform: capitalize;
+  padding-right: 4px;
+  letter-spacing: 5px;
+  
+}
+header .neviagation-bar{
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 50px;
+}
+header .neviagation-bar a {
+  text-decoration: none;
+  color: black;
+  padding: 8px 16px;
+
+}
+
+header a:hover {
+  background-color: gray;
+}
+
+.landing {
+  background-image: url(../images/architect.jpg);
+  background-size: cover;
+  width: 1500px;
+  height: 800px;
+  position: relative;
+
+}
+
+.landing h1{
+  margin: 0;
+  color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  text-transform: capitalize;
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 35px;
+
+}
+
+.landing span {
+  background-color: black;
+  opacity: 0.75;
+  padding: 8px 16px;
+  font-weight: bolder;
+}
+
+.page-content {
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+
+.page-content h3{
+  padding-top: 16px;
+  padding-bottom: 16px;
+  border-bottom: 1px solid #ccc;
+}
+
+.first-row , .second-row {
+display: flex;
+gap: 16px ;
+margin-top: 15px;
+  
+}
+.first-row img , .second-row img {
+  width: 100%;
+}
+
+.first-row .box , .second-row .box{
+  position: relative;
+}
+
+.first-row .box span ,.second-row .box span {
+  position: absolute;
+  left: 0;
+  top: 0;
+  background-color: black;
+  color: white;
+  width: fit-content;
+  padding: 8px 16px;
+}
+
+.about .text-box {
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+
+.about .a-b {
+  text-transform: capitalize;
+  border-bottom: 1px solid #ccc;
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
+
+.about .row {
+  display: flex;
+  filter: grayscale(75%);
+  gap: 16px;
+}
+
+.about .row img {
+  width: 100%;
+}
+.about .row .works {
+  opacity: 0.60;
+}
+.about .row button {
+  padding: 8px 16px;
+  width: 100%;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  border: none;
+  text-align: center;
+}
+
+.about .row button:hover {
+background-color: #acacac;
+}
+
+.contact {
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+
+.contact h3 {
+  padding-top: 16px;
+  padding-bottom: 16px;
+  text-transform: capitalize;
+  border-bottom: 1px solid #ccc;
+}
+
+.contact form {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact form input {
+  margin-top: 16px;
+  margin-bottom: 16px;
+  padding: 8px;
+  border: none;
+  outline-color: black;
+  border-radius: 0;
+  border: 1px solid #ccc;
+}
+
+.contact form .button {
+  background-color: black;
+  width: fit-content;
+  color: white;
+  padding: 8px 16px;
+  outline: none;
+  border: none;
+  text-transform: uppercase;
+}
+.contact form .button:hover {
+  background-color: rgb(71, 71, 71)
+}
+
+img {
+  padding-bottom: 4px;
+}
+
+footer {
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
